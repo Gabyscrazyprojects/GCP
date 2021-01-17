@@ -1,0 +1,508 @@
+<!-- Esta es la pantalla de Curriculum-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="logo.png">
+        <style>
+            body{
+                background-color: #121212;
+                color: #ffffff; 
+                font-family: 'Helvetica';}
+            header{
+                position: fixed; 
+                top: 0;
+                margin-top: 0px; 
+                width: 100%;
+                z-index: 2;
+            }
+            header img{
+                margin-left: 1%;
+            }
+            header a{
+                color:#ffffff;
+            }
+            nav {float: right; 
+                margin-top: 1%; 
+                margin-right: 5%;
+                margin-left: 0px;
+            }
+            section{
+                margin-right: 10%;
+                margin-left: 10%;
+            }
+            .selected{ 
+                background: linear-gradient(45deg, #F15A24, #FFFF00);
+                border-radius: 10%;
+                color:  #121212;
+            }
+            header nav span {
+                padding: 1%;
+            }
+            header p{
+                display: inline;
+            }
+            header, footer {
+                background-color: #282828;
+                border: 1% solid #00FFFF;
+            }
+            a:hover{
+                color: #F15A24;
+            }
+            footer{
+                bottom: 0;
+                padding-bottom: 1%;
+                padding-top: 1%;
+                width: 100%;
+                text-align: center;
+                margin-top: 5%;
+            }
+            h1{
+                margin-top: 5%;
+                text-align: center;
+                color: #121212;
+                background: linear-gradient(45deg, #F15A24, #FFFF00);
+                height: 50%;
+                width: 100;
+                padding: 5%;
+            }
+            article a{
+                color: #ffffff;
+            }
+            article{
+                margin-bottom: 20%;
+                margin-top: 20%;
+            }
+            #PersonalData{
+                float: right;
+            }
+            #PersonalData p{
+                color:#ffffff;
+            }
+            .name{
+                text-align: left;
+                border-bottom-style: solid;
+                border-bottom-color:#FFFF00;
+                border-bottom-width: 1%;
+            }
+            h2{
+                text-align: center;
+            }
+            .first{
+                margin-top: 10%;
+                border-bottom:#ffffff, solid, 1px;
+            }
+            h3{
+                color: #121212;
+                background: linear-gradient(45deg, #F15A24, #FFFF00);
+            }
+            h4{
+                color:#F15A24;
+            }
+            .infoFirst{
+                color:#ffffff;
+                background:#121212;
+            }
+            .first li{
+                list-style-type: none;
+            }
+            .certifications{
+                text-align: center;
+            }
+            .TableHead{
+                color: #121212;
+                background: linear-gradient(45deg, #F15A24, #FFFF00);
+            }
+            .Global{
+                background-image: url("globalLogo.png");
+                background-size: cover;
+            }
+            .AmoreMX{
+                background-image: url("AmoreLogo.png");
+                background-size: cover;
+            }
+            .ManosQueSanan{
+                background-image: url("MQS.png");
+                background-size: cover;
+            }
+            .MyCase{
+                background-image: url("mycase.png");
+                background-size: cover;
+            }
+            .FabLab{
+                background-image: url("fablab.png");
+                background-size: cover;
+            }
+            .MIT{
+                background-image: url("MIT/MIT_logo.png");
+                background-size: cover;
+            }
+            td a{
+                color:#ffffff;
+            }
+            #greenspin{
+                color:#00FF00;
+            }
+            .GreenSpin{
+                background-image: url("GreenSpin.png");
+                background-size: cover;
+            }
+            .Cemex{
+                background-image: url("LogoCemex.png");
+                background-size: cover;
+            }
+            .siemens{
+                background-image: url("siemens.png");
+                background-size: cover;
+            }
+            .sai2d{
+                background-image: url("sai2d.PNG");
+                background-size: cover;
+            }
+            .ensamble{
+                background-image: url("ensamble.png");
+                background-size: cover;
+            }
+            /*.flex{
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+            }
+            .flex img{
+                flex-grow: 3;
+                flex-shrink: 3;
+                flex-basis: auto;
+                align-self: auto;
+            }*/
+            footer p{
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="/Users/gabrielavallin/Desktop/GCPwebsite/gabyscrazyprojects.html"><img src="logo.png" alt="Gaby's Crazy Projects logo" width=5% height=5%></a>
+            <nav>
+            <p>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/gabyscrazyprojects.html">Home</a>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPCV.html" class="selected">Curriculum</a>
+                <a href="/Users/gabrielavallin/Desktop/GCPwebsite/GCPPortfolio.html">Portfolio</a>
+                <a href="mailto:a01620191@itesm.mx">Contact</a>
+            </p>
+            </nav>
+        </header>
+        <h1>Gaby's Crazy CV</h1>
+        <main>
+            <section>
+                <article class="first">
+                    <img src="logo.png" alt="Gaby's picture" height=30% width=30%>
+                    <div id="PersonalData">
+                        <h2 class="name">Gabriela Vallín Romo</h2>
+                        <h3 class="infoFirst">Honors student majoring in Innovation and Development Engineering</h3>
+                        <h4 class="infoFirst">Specializing in Prototyping and Advanced Fabrication</h4>
+                        <ul>
+                            <li><b>Phone:</b> (449) 494 4919</li>
+                            <li><b>E-mail:</b> <a href="mailto:a01620191@itesm.mx">a01620191@itesm.mx</a></li>
+                            <li><b>Location:</b> Aguascalientes, Ags.</li>
+                            <li><b>Instagram:</b> <a href="https://www.instagram.com/gabyscrazyprojects/" target="_blank">@gabyscrazyprojects</a></li>
+                            <li><b>Behance:</b> <a href="https://www.behance.net/gabrielvalln" target="_blank">@gabrielvalln</a></li>
+                        </ul>
+                     </div>
+                </article>
+                <article>
+                    <h2>Hobbys and skills</h2>
+                    <div class="flex">
+                        <img src="diagramasCV-01.png" alt="Hard skills" height=45% width=45%>
+                        <img src="diagramasCV-02.png" alt="Soft skills" height=45% width=45%>
+                    </div>
+                </article>
+                <article>
+                    <h2>Academic preparation</h2>
+                    <section>
+                        <h3><b>University:</b> Tecnológico de Monterrey, Monterrey campus</h3>
+                        <h4>August, 2019 - Today</h4>
+                        <ul>
+                        <li>Prototiping and Advanced Fabrication specialization.</li>
+                        <ul>
+                            <li>Use of Arduino, C++, Labview.</li>
+                            <li>Design and 3D modeling in CREO, SketchUp and Solidworks.</li>
+                        </ul></li>
+                        <li>Currently studying Sixth semester.</li>
+                        </ul>
+                         <h4>September, 2018 - Today</h4>
+                         <ul>
+                             <li>Student member of the International Honors Program.</li>
+                             <li>Bullats English level C1 Certification.</li>
+                         </ul>
+                         <h4>August, 2018 - December, 2019</h4>
+                         <ul>
+                             <li>Studied level B2 and C1 in German.</li>
+                         </ul>
+                     </section>
+                     <section>
+                         <h3><b>High school:</b> Tecnológico de Monterrey, Aguascalientes campus</h3>
+                         <h4>August, 2015 - May, 2018</h4>
+                         <ul>
+                             <li>Student member of the Multicultural Program in PrepaTec.</li>
+                             <ul>
+                                 <li><b>May, 2018:</b> A1 and A2 (HSK 1 and 2) Chinese Certificate.</li>
+                                 <li><b>May, 2018:</b> B1 certificate in German from Goethe Institut.</li>
+                                 <li><b>June, 2017:</b> Summer study trip to China (Beijing, Shanghai and Hong Kong).</li>
+                                 <li><b>June, 2016:</b> Summer study trip to Germany, Austria and Czech Republic</li>
+                             </ul>
+                         </ul>
+                     </section>
+                </article>
+                <article>
+                    <h2>Experience in software</h2>
+                    <div class="flex">
+                        <img src="creo-01.png" alt="Creo software logo" height=10% width=10%>
+                        <img src="ltspice.png" alt="LTSpice software logo" height=10% width=10%>
+                        <img src="SketchUp-Logo.png" alt="SketchUp software logo" height=10% width=10%>
+                        <img src="solidworks.png" alt="Solid Works software logo" height=10% width=10%>
+                        <img src="AfterEffects.png" alt="After Effects software logo" height=10% width=10%>
+                        <img src="Dimension.png" alt="Dimension software logo" height=10% width=10%>
+                        <img src="illusrator-logo.png" alt="Adobe Illustrator software logo" height=10% width=10%>
+                        <img src="photoshop-logo.png" alt="Photoshop software logo" height=10% width=10%>
+                        <img src="VSC.png" alt="Visual Studio Code software logo" height=10% width=10%>
+                    </div>
+                </article>
+                <article>
+                    <h2>Programming languages</h2>
+                    <div class="flex">
+                        <img src="labview.png" alt="Labview software logo" height=20% width=20%>
+                        <img src="htmlLogo.png" alt="HTML programming language logo" height=20% width=20%>
+                        <img src="cssLogo.png" alt="CSS programming language logo" height=20% width=20%>
+                        <img src="Matlab_Logo.png" alt="Matlab software logo" height=20% width=20%>
+                    </div>
+                </article>
+                <article>
+                    <h2>Work experience and relevant projects</h2>
+                    <table>
+                        <tr class="TableHead">
+                            <th>Enterprise or project</th>
+                            <th>Roles and acknowledgements</th>
+                            <th>Learnings</th>
+                        </tr>
+                        <tr>
+                            <td class="Global">December 2020 <break></break><b><a href="https://www.instagram.com/gchallengesmx/" target="_blank">Global Challenges:</a></b> Spectrometry for separation of plastics.</td>
+                            <td>
+                                <ul>
+                                    <li>Scientific validation, pitching, and financial analysis of Spectometry applied to separation of different types of plastics.</li>
+                                    <li>Disciplinary team of people from the engineering and finance departments.</li>
+                                    <li>Receive Design thinking mentoring and certification.</li>
+                                    <li>First place winners of the category "Planet".</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Expression habilities with people from different areas.</li>
+                                    <li>Remote team planning.</li>
+                                    <li>Design thinking, pitching and financial knowledge applied in social entrepreneurship.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="AmoreMX">June 2020 - Today <break></break><b><a href="https://www.amore.mx" target="_blank">Amore.mx</a> marketing firm:</b> Graphic design and content creation for businesses.</td>
+                            <td>
+                                <ul>
+                                    <li>Currently working as a graphic designer and content creator of the Amore.mx marketing firm.</li>
+                                    <li>Worked in content creation and branding for firms such as: <a href="https://www.instagram.com/ekacowork/" target="_blank">Eka CoWork</a>, <a href="https://www.instagram.com/panamericanschool52/" target="_blank">Panamerican School</a>, <a href="https://www.instagram.com/pruebas_protect_covid19/" target="_blank">Grupo PROTECT</a>, etc.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Versatility to speak for different brands.</li>
+                                    <li>Branding, design and composition habilities.</li>
+                                    <li>Social media strategy.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ManosQueSanan">August - November 2020 <a href="https://www.facebook.com/manosquesananoficial" target="_blank"><b>Manos Que Sanan:</b></a> Social Service Director</td>
+                            <td>
+                                <ul>
+                                    <li>General director the Human Rights social media campaign: "Conoce Tus Derechos"</li>
+                                    <li>Manage alliance with <a href="https://www.cedhnl.org.mx" target="_blank">CEDHNL:</a> Governmental Human Rights Organization.</li>
+                                    <li>Co-director of the start of a house project.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Human resources management.</li>
+                                    <li>Negociation skills.</li>
+                                    <li>Project and time management.</li>
+                                    <li>Empathy towards vulnerable citizens.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="MyCase">June 2020 <break><a href="https://www.instagram.com/mycasemty/" target="_blank"><b>MyCaseMty:</b></a> CDO</break></td>
+                            <td>
+                                <ul>
+                                    <li>Design director and illustrator of the MyCaseMty Startup.</li>
+                                    <li>Illustrations, mockups and design of phone cases.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Expertise in Adobe Illustrator.</li>
+                                    <li>Team communication.</li>
+                                    <li>Empathy and communication towards clients.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="FabLab">Febuary 2020 - June 2020 <break><a href="https://www.facebook.com/fablabcampana1" target="_blank"><b>FabLab Campana:</b></a> Create, Learn and Connect</break></td>
+                            <td>
+                                <ul>
+                                    <li>Mentor of kids from ages between 6 and 12 years old in design, laser cut and 3D printing workshops.</li>
+                                    <li>Filming and edition of video tutorials for kids to prototype.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Patience and teaching abilities.</li>
+                                    <li>Design thingking for kids.</li>
+                                    <li>Empathic design focused on communities.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="MIT">August 2018 - Paused <break><b>Invention of a new way of 3D printing:</b> Selective Electrodeposition (SED)</break></td>
+                            <td>
+                                <ul>
+                                    <li>Research, prototiping and experimentation leaded by MIT doctor, Ricardo Roberts.</li>
+                                    <li>Research modality in the university.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Scientific information research abilities.</li>
+                                    <li>Knowledge in scientific databases.</li>
+                                    <li>Knowledge in Electrochemistry and new materials.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="GreenSpin">August 2019 - Paused <break><b>Project <span id="greenspin">GreenSpin:</span></b> Sustainable bicycles in gyms</break></td>
+                            <td>
+                                <ul>
+                                    <li>CoFounder of the project.</li>
+                                    <li>Change from conventional elliptical bikes to electric energy generators.</li>
+                                    <li>Pitching for approval of many departments of the university.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Disruptive thinking.</li>
+                                    <li>Pitch and selling skills.</li>
+                                    <li>Networking.</li>
+                                    <li>Finance for entrepreneurs.</li>
+                                    <li>Leadership and teamwork.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Cemex">March 2020 <break><b><a href="https://www.cemexmexico.com" target="_blank">Cemex</a> Hackathon:</b> Handling construction residues</break></td>
+                            <td>
+                                <ul>
+                                    <li>Create and present plans to reduce construction residues using megatendencies.</li>
+                                    <li>Graphic/UI design and explanation of AI and generative design interface.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Knowledge in the construcion industry.</li>
+                                    <li>Time management.</li>
+                                    <li>Disruptive innovation.</li>
+                                    <li>Knowledge in AI and generative design.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="siemens">October 2019 <b><a href="https://www.siemens.com/global/en.html" target="_blank">Siemens</a> Challenge:</b> Labelling in production lines</td>
+                            <td>
+                                <ul>
+                                    <li>Improve the labelliing system of the fabric in less than 12 hours.</li>
+                                    <li>Graphic design/UX for software interfaces.</li>
+                                    <li>Machinery design.</li>
+                                    <li>First place winners of the challenge.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Teamwork.</li>
+                                    <li>Quick trubleshooting.</li>
+                                    <li>Manufacture industry knowledge.</li>
+                                    <li>Time management.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="sai2d">January - December 2019 <a href="https://www.instagram.com/sai2d.tec/" target="_blank"><b>Innovation and Development Engineering Student Society (SAi2d)</b></a></td>
+                            <td>
+                                <ul>
+                                    <li>Communication and Marketing Coordinator.</li>
+                                    <li>Advertising, marketing and branding.</li>
+                                    <li>Social media administration.</li>
+                                    <li>Photography and streaming in events.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Constant use of Adobe Illustrator.</li>
+                                    <li>Social media functions and automatization.</li>
+                                    <li>Photography and video editing.</li>
+                                    <li>Attention to details.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ensamble">January 2015 - May 2018 <b>PrepaTec musical assembly</b></td>
+                            <td>
+                                <ul>
+                                    <li>Drummer and percussions leader.</li>
+                                    <li>October 2017: Best musician and best musical arrangement prizes in the local song festival.</li>
+                                    <li>May 2018: Best musician prize and <b>Golden Lamb</b>, the highest prize in the Art & Culture category.</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Creativity and adaptability.</li>
+                                    <li>Leadership.</li>
+                                    <li>Nervousness management.</li>
+                                    <li>Fast and effective action in emergencies.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </article>
+                <article  class="certifications">
+                    <h2>Certifications outside school</h2>
+                    <div>
+                        <figure>
+                            <img src="google.png" alt="Google logo" height=20% width=20%>
+                            <figcaption><b>Google:</b> Introduction to Digital Marketing</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="w3cLogo.png" alt="W3C logo" height=20% width=20%>
+                            <figcaption><b>W3C:</b> CSS Basics</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="w3cLogo.png" alt="W3C logo" height=20% width=20%>
+                            <figcaption><b>W3C:</b> HTML5 and CSS Fundamentals</figcaption>
+                        </figure>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Website designed and developed by Gaby's Crazy Projects, Jan 2021.</p>
+            <a href="https://www.instagram.com/gabyscrazyprojects/" target="_blank"><img src="instagram.png" width=4% height=4%></a>
+            <a href="https://www.behance.net/gabrielvalln" target="_blank"><img src="behance.png" width=4% height=4%></a>
+        </footer>
+    </body>
+</html>
