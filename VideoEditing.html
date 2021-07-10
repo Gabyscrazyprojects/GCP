@@ -1,0 +1,128 @@
+<!-- Esta es la pantalla de Edicion de video-->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="logo.png">
+        <style>
+            body{
+                background-color: #121212;
+                color: #ffffff; 
+                font-family: 'Helvetica';}
+            header{
+                position: fixed; 
+                top: 0;
+                margin-top: 0px; 
+                width: 100%;
+                z-index: 2;
+            }
+            header img{
+                margin-left: 1%;
+            }
+            header a{
+                color:#ffffff;
+            }
+            nav {float: right; 
+                margin-top: 1%; 
+                margin-right: 5%;
+                margin-left: 0px;
+            }
+            section{
+                margin-right: 10%;
+                margin-left: 10%;
+            }
+            .selected{ 
+                background: linear-gradient(45deg, #00FFFF, #FF00FF);
+                border-radius: 10%;
+                color:  #121212;
+            }
+            header nav span {
+                padding: 1%;
+            }
+            header p{
+                display: inline;
+            }
+            header, footer {
+                background-color: #282828;
+                border: 1% solid #00FFFF;
+            }
+            a:hover{
+                color: #FF00FF;
+            }
+            footer{
+                bottom: 0;
+                padding-bottom: 1%;
+                padding-top: 1%;
+                width: 100%;
+                text-align: center;
+                margin-top: 5%;
+            }
+            h1{
+                margin-top: 5%;
+                text-align: center;
+                color: #121212;
+                background: linear-gradient(45deg, #00FFFF, #FF00FF);
+                height: 50%;
+                width: 100;
+                padding: 5%;
+            }
+            article a{
+                color:#00FFFF;
+            }
+            h2, p{
+                text-align: center;
+            }
+            div{
+                display: flexbox;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content:space-evenly;
+                align-items:flex-start;
+                align-content: flex-start;
+            }
+            div img, video{
+                flex-grow: 2;
+                flex-shrink: 2;
+                flex-basis: auto;
+                align-self: auto;
+            }
+            article{
+                margin-bottom: 20%;
+            }
+            img:hover, img:active{
+                transform: scale(1.2);
+            }
+            p{
+                color: #B3B3B3;
+            }
+            footer p{
+                color: #ffffff;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <link rel="Tab icon" href="logoTab.ico">
+            <a href="index.html"><img src="logo.png" alt="Gaby's Crazy Projects logo" width=5% height=5%></a>
+            <nav>
+            <p>
+                <a href="index.html">Home</a>
+                <a href="CV.html">Curriculum</a>
+                <a href="portfolio.html" class="selected">Services</a>
+                <a href="mailto:a01620191@itesm.mx">Contact</a>
+            </p>
+            </nav>
+        </header>
+        <main>
+        <h1>Video editing Service</h1>
+          
+        </main>
+        <footer>
+            <p>Website designed and developed by Gaby's Crazy Projects, Jan 2021.</p>
+            <a href="https://www.instagram.com/gabyscrazyprojects/" target="_blank"><img src="instagram.png" width=4% height=4%></a>
+            <a href="https://www.behance.net/gabrielvalln" target="_blank"><img src="behance.png" width=4% height=4%></a>
+            <a href="https://github.com/Gabyscrazyprojects" target="_blank"><img src="githublogo.svg" width=4% height=4%></a>
+            <a href="linkedin.com/in/gabriela-vallín-romo-a34240215" target="_blank"><img src="linkedin.svg" width=4% height=4%></a>
+        </footer>
+    </body>
+</html>
