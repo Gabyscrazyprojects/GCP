@@ -44,14 +44,14 @@
             }
             .selected{ 
                 background: linear-gradient(45deg, #0F80E7, #FF00FF);
-                border-radius: 10%;
+                border-radius: 20%;
                 color:  #191919;
             }
             .contact{
                 padding: 5%;
                 background-color: white;
-                border-radius: 10%;
-                color: black;
+                border-radius: 20%;
+                color: #333333;
             }
             header nav span {
                 padding: 1%;
@@ -73,6 +73,15 @@
             }
             footer p{
                 color: #979797;
+            }
+            .blackbutton{
+                background-color: #333333;
+                color: white;
+                padding: 10%;
+                border-radius: 20%;
+            }
+            .blackbutton:hover{
+                background: linear-gradient(45deg, #0F80E7, #FF00FF);
             }
             h1{
                 margin-top: 5%;
@@ -148,8 +157,8 @@
                 margin-bottom: 0px;
             }
             footer img{
-                margin-left: 5%;
-                Margin-right: 5%;
+                margin-left: 1%;
+                Margin-right: 1%;
             }
         </style>
     </head>
@@ -167,8 +176,22 @@
             </nav>
         </header>
         <main>
-        <img src="cover-min.png" alt="Gaby's Crazy Projects' cover photo" width=100%>
-        <section class="intro" width=100%>
+        <table>
+            <tr>
+            <td>
+                <h1>Nice to meet you!</h1>
+                <p>I am Gabriela Vallín Romo: Engineer, designer, and overall creative entrepreneur (or as I call it "creativepreneur"!).
+                    <br>I do projects for myself, as well as other companies in different parts of the world.</br>
+                <br>If your project sounds crazy, I'm in.</br>
+            </p>
+        <a href="mailto:gabyvallin.gcp@gmail.com" class="blackbutton"><button type="button">Let's collaborate</button></a>
+            </td>
+            <td>
+                <img src="Otro5.jpg" width=100%>
+            </td>
+            </tr>
+            </table>
+        <!-- <section class="intro" width=100%>
             <article>
                 <img id="FotoGaby" src="FotoGaby-01.png" alt="Gaby's Crazy Projects' CEO photo" width=20% height=20%>
                 <h2>Hi! Nice to meet you.</h2>
@@ -178,11 +201,12 @@
                     <br>Have a crazy project in mind? If you need help with: UX/UI Design & prototyping, Social media content, Logos, Video editing, Book covers, Front-end web development, Photo editing, Illustrations, 3D Modelling & rendering, Flyers, or just to create something new and crazy, then you've come to the right place!</br> 
                 </p>
             </article>
-        </section>
+        </section>-->
     <section class="TechUnicorn">
             <article>
-                <h2>The crazier the project, the better</h2>
+                <h1>Tech unicorn</h1>
                 <p>The two words that describe me best are "Tech Unicorn", because I have the prototyping & engineering skills to make things work, and the art & design skills to make them look amazing! I'm always up for a challenge, so the crazier the project, the better.</p>
+                <a href="portfolio.html" class="blackbutton"><button type="button">Check out my portfolio</button></a>
                 <img src="techunicorn.png" alt="Tech Unicorn picture" width=100% >
             </article>
     </section>
