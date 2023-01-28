@@ -75,13 +75,13 @@
                 width: 100;
                 padding: 5%;
             }
-            article a{
+            /*article a{
                 color:#00FFFF;
-            }
+            }*/
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,7 +102,7 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -123,6 +123,32 @@
             button:hover{
                 transform: scale(1.2);
             }
+            section {
+                display: flex;
+                width: 80%;
+                height: 80%;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 40%;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,7 +166,23 @@
         </header>
         <main>
         <h1>Professional Documents</h1>
-            <article>
+            <h2>DXOMARK Media Kit</h2>
+                <p>Smartphone Media Kit done for the technology testing company DXOMARK. Professional document done in Adobe InDesign and translated into 2 other languages apart from English: French and Chinese, the one below is the English version.</p>
+                <section>
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s).png" alt="Page 1">
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s) 2.png" alt="Page 2">
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s) 3.png" alt="Page 3">
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s) 4.png" alt="Page 4">
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s) 5.png" alt="Page 5">
+                    <img src="DXOMARK Media Kit – Smartphone Quality Evaluation Protocols (glissé(e)s) 6.png" alt="Page 6">
+            </section>
+            <h2>Amore Mkt: Covid test types flyer</h2>
+                <p>One of the clients of the marketing agency I used to work for was a Covid test business called "Grupo Protect". For them I did a lot of different kinds of content to raise awareness about the virus when it was starting, some content done includes this flyer that was used for printing purposes.</p>
+                <section>
+                    <img src="Protect1.png" alt="Page 1">
+                    <img src="Protect2.png" alt="Page 2">
+            </section>
+            <!--<article>
                 <h2>DXOMARK Media Kit</h2>
                 <p>Smartphone Media Kit done for the technology testing company DXOMARK. Professional document done in Adobe InDesign and translated into 2 other languages apart from English: French and Chinese, the one below is the English version.</p>
                 <div>
@@ -159,7 +201,7 @@
                     <img src="Protect1.png" alt="Page 1" height=50% width=50%>
                     <img src="Protect2.png" alt="Page 2" height=50% width=50%>
                 </div>
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
