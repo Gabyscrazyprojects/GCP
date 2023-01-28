@@ -75,13 +75,13 @@
                 width: 100;
                 padding: 5%;
             }
-            article a{
+            /*article a{
                 color:#00FFFF;
-            }
+            }*/
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,7 +102,7 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -123,6 +123,32 @@
             button:hover{
                 transform: scale(1.2);
             }
+            section {
+                display: flex;
+                width: 80%;
+                height: 80%;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 40%;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,7 +166,21 @@
         </header>
         <main>
         <h1>Photo editing</h1>
-            <article>
+            <h2>Amore Marketing Agency: Photo editing</h2>
+                <p>I have edited photos for companies such as Kamara Casa, Fusion H, and Panamerican School.</p>
+                <section>
+                    <img src="Fachada.jpg" alt="School photo">
+                    <img src="1.jpg" alt="Furniture picture 1">
+                    <img src="2.jpg" alt="Furniture picture 2">
+                    <img src="3.jpg" alt="Furniture picture 3">
+                    <img src="4.jpg" alt="Furniture picture 4">
+                    <img src="5.jpg" alt="Furniture picture 5">
+                    <img src="6.jpg" alt="Furniture picture 6">
+                    <img src="7.jpg" alt="Furniture picture 7">
+                    <img src="8.jpg" alt="Furniture picture 8">
+                    <img src="9.jpg" alt="Furniture picture 9">
+            </section>
+            <!--<article>
                 <h2>Amore Marketing Agency: Photo editing</h2>
                 <p>I have edited photos for companies such as Kamara Casa, Fusion H, and Panamerican School.</p>
                 <div>
@@ -155,7 +195,7 @@
                     <img src="8.jpg" alt="Furniture picture 8" height=30% width=30%>
                     <img src="9.jpg" alt="Furniture picture 9" height=30% width=30%>
                 </div>
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
