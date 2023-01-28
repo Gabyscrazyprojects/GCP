@@ -36,10 +36,10 @@
                 margin-right: 5%;
                 margin-left: 0px;
             }
-            section{
+            /*section{
                 margin-right: 10%;
                 margin-left: 10%;
-            }
+            }*/
             .selected{ 
                 background: linear-gradient(45deg, #00FFFF, #FF00FF);
                 border-radius: 10%;
@@ -75,13 +75,13 @@
                 width: 100;
                 padding: 5%;
             }
-            article a{
+            /*article a{
                 color:#00FFFF;
-            }
+            }*/
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,7 +102,7 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -123,6 +123,32 @@
             button:hover{
                 transform: scale(1.2);
             }
+            section {
+                display: flex;
+                width: 80%;
+                height: 80%;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 40%;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,6 +166,32 @@
         </header>
         <main>
         <h1>Illustrations</h1>
+            <h2>DXOMARK: Smartphone blueprints</h2>
+                <p>A clean version of plenty of different smartphones done for the technology testing company DXOMARK, for <a href="https://www.youtube.com/watch?v=IlGV87BtYT8" target="_blank">Device Score Summary YouTube videos</a></p>
+                <section>
+                    <img src="Fairphone 4 trace-01.png" alt="Phone blueprint 1">
+                    <img src="Google Pixel 7 Pro-01.png" alt="Phone blueprint 2">
+                    <img src="Google Pixel 7-01.png" alt="Phone blueprint 3">
+                    <img src="Huawei Mate 50 Pro-01.png" alt="Phone blueprint 4">
+                    <img src="iPhone 14 Pro trace-01.png" alt="Phone blueprint 5">
+                    <img src="Motorola blueprint-01.png" alt="Phone blueprint 6">
+                    <img src="OnePlus Nord 2T trace-01.png" alt="Phone blueprint 7">
+                    <img src="Oppo Find X5 Pro trace-01.png" alt="Phone blueprint 8">
+                    <img src="Poco F' GT trace-01.png" alt="Phone blueprint 9">
+                    <img src="Sony Xperia 5 IV-01.png" alt="Phone blueprint 10">
+                    <img src="Xiaomi 12S Ultra trace-01.png" alt="Phone blueprint 11">
+            </section>
+            <h2>Illustrator for MyCaseMty</h2>
+                <p>My job included designing and making illustrations and Photoshop Mockups for the back of the cases and using them for the enterprise's <a href="https://www.instagram.com/mycasemty/" target="_blank">Instagram</a></p>
+                <section>
+                    <img src="mycase1.jpg" alt="Illustration in Phonecase 1">
+                    <img src="mycase2.jpg" alt="Illustration in Phonecase 2">
+                    <img src="mycase3.jpg" alt="Illustration in Phonecase 3">
+                    <img src="mycase4.jpg" alt="Illustration in Phonecase 4">
+                    <img src="mycase5.jpg" alt="Illustration in Phonecase 5">
+                    <img src="mycase6.jpg" alt="Illustration in Phonecase 6">
+            </section>
+            <!--
             <article>
                 <h2>DXOMARK: Smartphone blueprints</h2>
                 <p>A clean version of plenty of different smartphones done for the technology testing company DXOMARK, for <a href="https://www.youtube.com/watch?v=IlGV87BtYT8" target="_blank">Device Score Summary YouTube videos</a></p>
@@ -168,7 +220,7 @@
                     <img src="mycase5.jpg" alt="Illustration in Phonecase 5" height=30% width=30%>
                     <img src="mycase6.jpg" alt="Illustration in Phonecase 6" width=100%>
                 </div>
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
