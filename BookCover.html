@@ -75,13 +75,13 @@
                 width: 100;
                 padding: 5%;
             }
-            article a{
+            /*article a{
                 color:#00FFFF;
-            }
+            }*/
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,7 +102,7 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -123,6 +123,32 @@
             button:hover{
                 transform: scale(1.2);
             }
+            section {
+                display: flex;
+                width: 80%;
+                height: 80%;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 40%;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,7 +166,34 @@
         </header>
         <main>
         <h1>Book & Magazines Covers</h1>
-            <article>
+            <h2>Jorge Farías: Trust book cover 2</h2>
+                <p>I designed the cover of a book from author Jorge Farías Arizpe, this is like the summary of ths book below. It is right now selling on <a href="https://www.amazon.com.mx/MODELO-CONFIABILIDAD-JORGE-FARIAS-ARIZPE-ebook/dp/B097NR8S3L/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=modelo+de+confiabilidad+ho&qid=1629584079&sr=8-1">Amazon.</a></p>
+                <section>
+                    <img src="Portada2-1.png" alt="Book Cover Image 1">
+                    <img src="Portada2-2.png" alt="Book Cover Image 2">
+                    <img src="Portada2-3.png" alt="Book Cover Image 3">
+            </section>
+            <h2>Jorge Farías: Trust book cover</h2>
+                <p>I designed the cover of a book from author Jorge Farías Arizpe, it is right now selling on <a href="https://www.amazon.com.mx/EL-RETO-M%C3%89XICO-AUMENTAR-CONFIABILIDAD-ebook/dp/B093CPB7PN/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=EL+reto+de+M%C3%A9xico+aumentar+la+confiabilidad&qid=1619805827&sr=8-1">Amazon.</a></p>
+                <section>
+                    <img src="Portada1.jpeg" alt="Book Cover Image 1">
+                    <img src="Portada2.jpeg" alt="Book Cover Image 2">
+                    <img src="Portada3.jpeg" alt="Book Cover Image 3">
+            </section>
+            <h2>Harry Potter Book Press Kit</h2>
+                <p>I redesigned the cover of a book I like and from it, did a concept teaser poster, an event poster, redesigned the publishing house's logo, did 2 mockups, and a 10 second instastory video for my Design class.</p>
+                <section>
+                    <img src="hp1.png" alt="HP Book Press Kit image 1">
+                    <img src="hp2.png" alt="HP Book Press Kit image 2">
+                    <img src="hp3.png" alt="HP Book Press Kit image 3">
+                    <img src="hp4.png" alt="HP Book Press Kit image 4">
+                    <img src="hp5.png" alt="HP Book Press Kit image 5">
+                    <img src="hp6.jpg" alt="HP Book Press Kit image 6">
+            </section>
+            <video width=30% height=30% controls>
+                        <source src="PressKit_video.mp4" type="video/mp4">
+                    </video>
+            <!--<article>
                 <h2>Jorge Farías: Trust book cover 2</h2>
                 <p>I designed the cover of a book from author Jorge Farías Arizpe, this is like the summary of ths book below. It is right now selling on <a href="https://www.amazon.com.mx/MODELO-CONFIABILIDAD-JORGE-FARIAS-ARIZPE-ebook/dp/B097NR8S3L/ref=sr_1_1?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=modelo+de+confiabilidad+ho&qid=1629584079&sr=8-1">Amazon.</a></p>
                 <div>
@@ -172,7 +225,7 @@
                         <source src="PressKit_video.mp4" type="video/mp4">
                     </video>
                 </div>           
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
