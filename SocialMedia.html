@@ -81,7 +81,25 @@
             h2, p{
                 text-align: center;
             }
-            div{
+            section {
+                display: flex;
+                width: 600px;
+                height: 430px;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -94,15 +112,17 @@
                 flex-shrink: 2;
                 flex-basis: auto;
                 align-self: auto;
+            }*/
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
             }
-            article{
-                margin-bottom: 20%;
-                margin-left: 10%;
-                margin-right: 10%;
+            h2{
+                margin-top: 10%;
             }
-            img:hover, img:active{
+            /*img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -140,35 +160,29 @@
         </header>
         <main>
         <h1>Social Media Content</h1>
-            <article>
-                <h2>DXOMARK: Social media design templates</h2>
-                <p>I made various Photoshop templates for use on social media for the technology testing company DXOMARK, by having ranking templates, as well as various deigns for campaign use. These templates where general and explainatory enough to be opened and modified by various people from their Communication team.</p>
-                <div>
+            <h2>DXOMARK: Social media design templates</h2>
+            <p>I made various Photoshop templates for use on social media for the technology testing company DXOMARK, by having ranking templates, as well as various deigns for campaign use. These templates where general and explainatory enough to be opened and modified by various people from their Communication team.</p>
+            <section>
                     <img src="Ajuste imagenes portfolio_DXOMARK collage.png" alt="DXOMARK image collage" height=100% width=100%>
-                </div>
-            </article>
-            <article>
-                <h2>Amore Marketing Agency: Design executive</h2>
+            </section>
+            <h2>Amore Marketing Agency: Design executive</h2>
                 <p>For 1 year I was a design executive & content creator for <a href="https://www.amore.mx/" target="_blank">Amore Marketing Agency</a>, My job included managing the creative process of designing flyers, banners, copies, videos, animations and different aspects of branding and marketing for social networks.</p>
-                <div>
+            <section>
                     <img src="Ajuste imagenes portfolio_Amore 1.png" alt="Dimetrica Anounce" height=30% width=30%>
                     <img src="BTCAnuncio.jpg" alt="BTC announce" height=30% width=30%>
                     <img src="FraseEka.jpg" alt="Eka Phrase" height=30% width=30%>
                     <img src="DCImagenAnuncio.jpg" alt="DC Image announcement" height=30% width=30%>
-                </div>
-            </article>
-            <article>
+            </section>
                 <h2>SAi2d: Graphic design & Social Media</h2>
                 <p>For 1 year I was a Community Manager and Graphic Designer for <a href="https://www.instagram.com/sai2d.tec/" target="_blank">SAi2d</a>, the Alumni Society of my major. During that year, we doubled our Instagram followers and won the best party poster in engineerings. Made in Adobe Illustrator and Canva.</p>
-                <div>
+            <section>    
                     <img src="sai2d1.png" alt="Poster social media image 1" height=30% width=30%>
                     <img src="Ajuste imagenes portfolio_Sai2d 1.png" alt="Poster social media image 2" height=30% width=30%>
                     <img src="sai2d3.png" alt="Poster social media image 3" height=30% width=30%>
                     <img src="sai2d4.png" alt="Poster social media image 4" height=30% width=30%>
                     <img src="sai2d5.jpg" alt="Poster social media image 5" height=30% width=30%>
                     <img src="sai2d6.png" alt="Poster social media image 6" height=30% width=30%>
-                </div>
-            </article>
+            </section>
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
