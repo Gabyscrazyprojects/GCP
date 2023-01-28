@@ -81,7 +81,7 @@
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,6 +102,24 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
+            }*/
+            section {
+                display: flex;
+                width: 600px;
+                height: 430px;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
             }
             p{
                 color: #B3B3B3;
@@ -123,6 +141,13 @@
             button:hover{
                 transform: scale(1.2);
             }
+                        section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,7 +165,40 @@
         </header>
         <main>
         <h1>3D Modeling & Rendering</h1>
-            <article>
+            <h2>Project Of The Year nominee: Audi R8 Spyder WITH A TWIST</h2>
+                <p>Nominated for Project Of The Year 2020. It is an Audi R8 design but with some innovative and sustainable touches. First, by changing the wheels to spherical, opening to a whole new world in mechanics, and second, by putting solar panels on the roof, so the car can be a hybrid between solar and electric. Made in Solidworks and rendered in Solidworks Visualize.</p>
+                <section>
+                    <img src="poty1.png" alt="POTY 2020 project car image 1" height=30% width=30%>
+                    <img src="poty2.png" alt="POTY 2020 project car image 1" height=30% width=30%>
+                    <img src="poty3.png" alt="POTY 2020 project car image 1" height=30% width=30%>
+            </section>
+            <h2>Audi R8 3D model & render</h2>
+                <p>This was my #FailInLove Innovation Challenge. 3D model of one of the most intricated designs in cars in right, front, and isometric views. Modeled in Solidworks and rendered in Solidworks Visualize.</p>
+                <section>
+                    <img src="audir82.jpg" alt="Audi R8 car image 1" height=30% width=100%>
+                    <img src="audir81.jpg" alt="Audi R8 car image 2" height=30% width=30%>
+                    <img src="audir83.png" alt="Audi R8 car image 3" height=30% width=60%>
+            </section>
+            <h2>Other products' designs & renders</h2>
+                <p>I upload many renders of different products on my instagram <a href="https://www.instagram.com/gabyscrazyprojects/">@gabyscrazyprojects</a>, whether they exist or I design them from scrath.</p>
+                <section>
+                    <img src="Otro1.jpg" alt="Render image 1" height=30% width=30%>
+                    <img src="Otro2.jpg" alt="Render image 2" height=30% width=30%>
+                    <img src="Otro3.jpg" alt="Render image 3" height=30% width=30%>
+                    <img src="Otro4.jpg" alt="Render image 4" height=30% width=30%>
+                    <img src="Otro5.jpg" alt="Render image 5" height=30% width=30%>
+                    <img src="Otro6.jpg" alt="Render image 6" height=30% width=30%>
+                    <img src="Otro7.jpg" alt="Render image 7" height=30% width=30%>
+                    <img src="Otro8.jpg" alt="Render image 8" height=30% width=30%>
+            </section>
+            <h2>STLs and DXFs for infrared thermometers</h2>
+                <p>Due to the Covid-19 pandemic, I designed and modeled these cases for infrared thermometers in the simplest shape possible for them to manufacture quickly and get to health centers. Cases modeled and rendered in Solidworks.</p>
+                <section>
+                    <img src="thermo1.jpg" alt="Infrared thermometer image 1" height=30% width=30%>
+                    <img src="thermo2.jpeg" alt="Infrared thermometer image 2" height=30% width=30%>
+                    <img src="thermo3.jpg" alt="Infrared thermometer image 3" height=30% width=30%>
+            </section>
+            <!--<article>
                 <h2>Project Of The Year nominee: Audi R8 Spyder WITH A TWIST</h2>
                 <p>Nominated for Project Of The Year 2020. It is an Audi R8 design but with some innovative and sustainable touches. First, by changing the wheels to spherical, opening to a whole new world in mechanics, and second, by putting solar panels on the roof, so the car can be a hybrid between solar and electric. Made in Solidworks and rendered in Solidworks Visualize.</p>
                 <div>
@@ -180,7 +238,7 @@
                     <img src="thermo2.jpeg" alt="Infrared thermometer image 2" height=30% width=30%>
                     <img src="thermo3.jpg" alt="Infrared thermometer image 3" height=30% width=30%>
                 </div>
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
