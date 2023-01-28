@@ -36,10 +36,10 @@
                 margin-right: 5%;
                 margin-left: 0px;
             }
-            section{
+            /*section{
                 margin-right: 10%;
                 margin-left: 10%;
-            }
+            }*/
             .selected{ 
                 background: linear-gradient(45deg, #00FFFF, #FF00FF);
                 border-radius: 10%;
@@ -75,13 +75,13 @@
                 width: 100;
                 padding: 5%;
             }
-            article a{
+            /*article a{
                 color:#00FFFF;
-            }
+            }*/
             h2, p{
                 text-align: center;
             }
-            div{
+            /*div{
                 display: flexbox;
                 flex-direction: row;
                 flex-wrap: wrap;
@@ -102,7 +102,7 @@
             }
             img:hover, img:active{
                 transform: scale(1.2);
-            }
+            }*/
             p{
                 color: #B3B3B3;
             }
@@ -123,6 +123,32 @@
             button:hover{
                 transform: scale(1.2);
             }
+            section {
+                display: flex;
+                width: 600px;
+                height: 430px;
+            }
+            section img {
+                width: 0px;
+                flex-grow: 1;
+                object-fit: cover;
+                opacity: .8;
+                transition: .5s ease;
+            }
+            section img:hover{
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
+            }
+
+            section{
+                margin-bottom: 5%;
+                margin-top: 5%;
+            }
+            h2{
+                margin-top: 10%;
+            }
         </style>
     </head>
     <body>
@@ -140,6 +166,43 @@
         </header>
         <main>
         <h1>UX/UI Design & Prototyping</h1>
+            <h2>DXOMARK: UI designs for website</h2>
+                <p>For their website, different pages where designed and sometimes prototiped using Figma and Adobe Illustrator, more specifically for the DXOMARK score remapping, the biggest event of the year for the company.</p>
+                <section>
+                    <img src="Ajuste imagenes portfolio_Dxomark 11.png" alt="Camera page desktop">
+                    <img src="HWT - Home page V2(1).png" alt="Home page" height=30% width=30%>
+                    <img src="Ajuste imagenes portfolio_Dxomark 12.png" alt="Camera page mobile">
+                </div>
+            </section>
+        <h2>TUYO: UX & UI consultancy and proposals</h2>
+                <p>UX & UI consultancy of the startup <a href="https://www.instagram.com/tuyo.ig/" target="_blank">TUYO</a>, a platform that changes the way to visit Latin America by partering with local artists, photographers and post cards.</p>
+                <section>
+                    <img src="TUYO3.png" alt="UI design of TUYO platform proposal 1">
+                    <img src="TUYO2.png" alt="UI design of TUYO platform proposal 2">
+                    <img src="TUYO1.png" alt="UI design of TUYO platform proposal 3">
+        </section>
+        <h2>CDO of Mimetic: The innovation wallet of everything for everyone</h2>
+                <p>Design of one of the first prototypes of Mimetic, an innovation funnel Startup. 2nd prototype in <a href="https://www.figma.com/file/euu4Pk25fw7GxZvAgHNHrX/Mimetic-V.6?node-id=0%3A1" target="_blank">Figma</a>. Currently in an incubation on which my team won a 100% scholarship for.</p>
+                <section>
+                    <img src="mimetic1.png" alt="Mimetic app 1">
+                    <img src="mimetic2.png" alt="Mimetic app 2">
+                    <img src="mimetic3.png" alt="Mimetic app 3">
+        </section>
+        <h2>Lexa Technologies</h2>
+                <p>UI design for screenshots our family Startup app Lexa Technologies. The app connects devices for the protection of people, especially women, in the streets. Used as an alarm for police stations nearby, newsfeed, and IA to tell the most dangerous places in a city. </p>
+                <section>
+                  <img src="lexa1.png" alt="UI of Lexa App 1">
+                    <img src="lexa2.png" alt="UI of Lexa App 2">
+                    <img src="lexa3.png" alt="UI of Lexa App 3">  
+        </section>
+        <h2>Cemex Hackathon: UI/UX Design</h2>
+                <p>Project for Cemex for their Residual Management area. I designed an interface much like Autodesk Autocad, but that uses Generative Design for projects, gives you an approximate of the cost and Ambiental impact (with possibilities to change materials depending on your location), and even the possibility to 3D print the structure, if the building is small enough. Designed in Adobe Illustrator. </p>
+                <section>
+                    <img src="cemex1.png" alt="UI Cemex Hackathon image 1">
+                    <img src="cemex2.png" alt="UI Cemex Hackathon image 2">
+                    <img src="cemex3.png" alt="UI Cemex Hackathon image 3">
+        </section>
+            <!--
             <article>
                 <h2>DXOMARK: UI designs for website</h2>
                 <p>For their website, different pages where designed and sometimes prototiped using Figma and Adobe Illustrator, more specifically for the DXOMARK score remapping, the biggest event of the year for the company.</p>
@@ -184,7 +247,7 @@
                     <img src="cemex2.png" alt="UI Cemex Hackathon image 2" height=40% width=40%>
                     <img src="cemex3.png" alt="UI Cemex Hackathon image 3" height=40% width=40%>
                 </div>
-            </article>
+            </article>-->
         </main>
         <a href="mailto:gabyvallin.gcp@gmail.com"><button type="button">I want a design!</button></a>
         <footer>
